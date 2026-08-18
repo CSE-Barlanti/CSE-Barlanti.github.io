@@ -1,0 +1,57 @@
+body {
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* Keep projects side by side but give them more room */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers the cards */
+    gap: 20px;
+}
+
+/* Project cards */
+.project {
+    width: 40%;
+    min-width: 320px; /* prevents text from getting squished */
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px; /* smoother shape than 25% circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title inside each project */
+.project h3, .project h4, .project h5 {
+    color: #990000; /* USC Garnet */
+    text-align: center;
+    border-bottom: 2px solid #990000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Image styling */
+.project img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid rgb(126, 14, 56);
+    border-radius: 10px;
+}
+
+/* Text readability */
+.project p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
