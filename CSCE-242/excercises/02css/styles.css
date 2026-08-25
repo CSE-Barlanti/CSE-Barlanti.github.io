@@ -1,0 +1,34 @@
+/* Structural */
+body{
+    font-family: Arial, Helvetica, sans-serif; /* sets the font family for the page */
+    background: url(images/Babypanda.jpeg); /* sets the background image for the page */
+    background-size: cover; /* sets the background image to cover the entire page */
+
+}
+
+#content{
+    background-color: lightcyan; /* sets the background color of the page */
+    width: 60%; /* sets the width of the page */
+    padding: 5px; /* adds padding around the content */
+    margin: auto; /* centers the page */
+    border-radius: 5px; /* rounds the corners of the page */
+    border: 10px solid navy; /* adds a border around the page */
+    filter: drop-shadow(10px 10px 5px lightgreen); /* adds a drop shadow effect */
+}
+
+header, main, footer{
+    padding: 15px; /* adds padding around the header */
+}
+
+header, footer{
+    background: cyan; /* sets the background color of the header and footer */
+    color: white; /* sets the text color of the header and footer */
+}
+
+/* Navigation */
+
+
+/* Typography */
+h1 {
+    color: navy;
+}
