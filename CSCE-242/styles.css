@@ -1,0 +1,62 @@
+/*Structural*/
+body{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: lightgray;
+    color: black;
+}
+
+#content{
+    background-color: lightcyan;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 10px solid maroon;
+    filter: drop-shadow(8px 8px 4px gray);
+}
+
+header,
+main,
+footer{
+   padding: 20px;
+
+}
+
+header,
+footer{
+    background-color: maroon;
+    color: white;
+}
+
+/*Navigation*/
+h1{
+    margin-top: 0;
+}
+
+h2{
+    color: maroon; 
+}
+
+/*Typography*/
+header h2{
+    color: white;
+}
+
+/*Links*/
+a{
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+header a{
+    color: white;
+}
+
+main a{
+    color: maroon;
+}
+
+/*Images*/
+
+
+/*Footer*/
