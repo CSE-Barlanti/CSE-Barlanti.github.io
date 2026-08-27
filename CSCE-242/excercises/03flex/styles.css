@@ -52,12 +52,24 @@ body{
 }
 
 /*Typography*/
+#main-header{
+    text-align: center;
+    padding-top: 10px;
+}
 
 /*Responsive Design*/
 /*600px or larger*/
 @media (min-width: 1000px){ /*styles for larger screens*/
     .columns{
         display:flex;
+    }
+
+    #main-nav li{
+        flex: 1;
+        border:0;
+        padding: 5px;
+
+
     }
 
     .one{ /*flex: 1 means that the element will take up 1 part of the available space in the flex container*/
