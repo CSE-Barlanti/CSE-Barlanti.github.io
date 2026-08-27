@@ -10,8 +10,12 @@ body{
     margin: auto;
 }
 
+#main-header{
+    background-color: bisque;
+}
+
 #sidebar, #info{
-    padding: 5px;
+    padding: 5px; /*adds padding to the inside of the box*/
 }
 
 #sidebar{
@@ -23,6 +27,24 @@ body{
 }
 
 /*Navigation*/
+#main-nav ul, #quicklinks{
+    list-style-type: none; /*removes bullets from list*/
+    padding-left: 0;
+}
+
+#main-nav li{
+    background-color: darkslateblue;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+#main-nav a{
+    text-decoration: none; /*removes underline from links*/
+    color: black;
+}
+
+
+
 /*Quick Links*/
 #quicklinks{
     list-style-type: none;
@@ -33,12 +55,12 @@ body{
 
 /*Responsive Design*/
 /*600px or larger*/
-@media (min-width: 1000px){
+@media (min-width: 1000px){ /*styles for larger screens*/
     .columns{
         display:flex;
     }
 
-    .one{
+    .one{ /*flex: 1 means that the element will take up 1 part of the available space in the flex container*/
         flex: 1;
     }
 
