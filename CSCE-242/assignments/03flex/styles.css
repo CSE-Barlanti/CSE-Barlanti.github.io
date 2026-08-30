@@ -21,3 +21,61 @@ header{
 
 }
 
+/*Navigation*/
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    flex: 1;
+}
+
+nav a{
+    display: block; 
+    background-color: indianred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/*Main-Layout*/
+#page-layout{
+    display: flex;
+}
+
+aside{
+    width: 18%;
+    background-color: lightpink;
+    padding: 15px;
+}
+
+main{
+    flex: 1;
+}
+
+.title-cards{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card{
+    flex: 1;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card h2{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
