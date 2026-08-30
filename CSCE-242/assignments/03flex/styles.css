@@ -143,15 +143,15 @@ footer{
     }
 
     .title-cards{
-        text-decoration: column;
+        flex-direction: column;
     }
 
     .idea{
-        text-decoration: column;
+        flex-direction: column;
     }
     
     .idea img{
-        width: 60%;
+        width: 100%;
     }
 }
 
