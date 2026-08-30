@@ -22,13 +22,13 @@ footer{
 }
 
 header{
-    background-color: black;
+    background-color: midnightblue;
     color: white;
     text-align: center;
 }
 
 footer{
-    background-color: maroon;
+    background-color: midnightblue;
     color: white;
 }
 
@@ -54,11 +54,11 @@ a{
 }
 
 header a{
-    color: maroon;
+    color: lightblue;
 }
 
 main a{
-    color: maroon;
+    color: darkblue;
 }
 
 /*Assignment and Project Cards*/
@@ -71,12 +71,12 @@ main a{
 
 .card-container{
     display:flex;
-    justify-content/* Justify content centers content in the flexbox*/: center; 
+    justify-content: center; 
     gap: 30px;
 }
 
 .assignment-card{
-    background-color: lightblue;
+    background-color: aliceblue;
     width: 300px;
     padding: 20px;
 }
