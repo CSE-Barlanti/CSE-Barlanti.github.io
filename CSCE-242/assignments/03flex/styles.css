@@ -12,7 +12,12 @@ header{
     padding: 25px;
 
 }
+
+
 #content{
+    width: 75%;
+    margin: 20px auto;
+    background-color: ivory;
 
 }
 
