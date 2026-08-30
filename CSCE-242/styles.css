@@ -21,7 +21,12 @@ footer{
 
 }
 
-header,
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
 footer{
     background-color: maroon;
     color: white;
@@ -38,7 +43,7 @@ h2{
 
 /*Typography*/
 header h2{
-    color: white;
+    color: black;
 }
 
 /*Links*/
@@ -49,12 +54,34 @@ a{
 }
 
 header a{
-    color: white;
+    color: maroon;
 }
 
 main a{
     color: maroon;
 }
+
+/*Assignment and Project Cards*/
+#assignments h2,
+#projects h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-container{
+    display:flex;
+    justify-content/* Justify content centers content in the flexbox*/: center; 
+    gap: 30px;
+}
+
+.assignment-card{
+    background-color: lightblue;
+    width: 300px;
+    padding: 20px;
+}
+
+
 
 /*Images*/
 
