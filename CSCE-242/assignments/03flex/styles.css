@@ -79,3 +79,79 @@ main{
     padding: 10px;
     margin: 0;
 }
+
+/*Sidebar*/
+aside h2{
+    color: cadetblue;
+    text-align: center;
+}
+
+aside ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+aside a{
+    display: block;
+    background-color: white;
+    color: indianred;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+/*Ideas*/
+.idea{
+    display: flex;
+    background-color: cadetblue;
+    color: white;
+    margin: 10px;
+}
+
+.idea img{
+    width: 25;
+    height: auto;
+    align-self: center;
+}
+
+.idea-text{
+    flex: 1;
+    padding: 15px;
+}
+
+/*Footer*/
+footer{
+    background-color: indianred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Small Screens*/
+@media (max-width: 700px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+    #page-layout{
+        flex-direction: column;
+    }
+
+    aside{
+        width: auto;
+    }
+
+    .title-cards{
+        text-decoration: column;
+    }
+
+    .idea{
+        text-decoration: column;
+    }
+    
+    .idea img{
+        width: 60%;
+    }
+}
+
