@@ -8,20 +8,32 @@ body{
 /*Header*/
 #main-header{
     background-color: bisque;
+    position: relative;
+    padding-top: 3%;
 }
 
 
 #logo{
-    margin: 10px;
+    width: 5%;
     position: absolute;
-    top: 0;
-    left: 0;
+    left: 1em;
+    top: 1em;
 }
 
-#content{
-    width: 80%;
-    margin: auto;
+/*Hero*/
+#hero{
+    position: relative;  /*sets the position of the hero section to relative so that the hero description can be positioned absolutely within it*/
 }
+#hero-description{
+    position: absolute; /*sets the position of the hero description to absolute so that it can be positioned within the hero section*/
+    top: 60%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.8); /*sets the background color of the hero description to a semi-transparent white*/
+    padding: 20px;
+    font-size:1.5em;
+}
+
+
 
 
 /*SideBar*/
@@ -71,6 +83,11 @@ body{
 /*Responsive Design*/
 /*600px or larger*/
 @media (min-width: 1000px){ /*styles for larger screens*/
+    #content{
+        width: 90%;
+        margin: 0 auto;
+
+    }
     .columns{
         display:flex;
     }
