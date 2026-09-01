@@ -5,15 +5,26 @@ body{
 
 }
 
+/*Header*/
+#main-header{
+    background-color: bisque;
+}
+
+
+#logo{
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 #content{
     width: 80%;
     margin: auto;
 }
 
-#main-header{
-    background-color: bisque;
-}
 
+/*SideBar*/
 #sidebar, #info{
     padding: 5px; /*adds padding to the inside of the box*/
 }
