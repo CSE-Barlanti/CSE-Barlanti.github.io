@@ -1,0 +1,58 @@
+/*Header*/
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#utility-bar{
+    background-color: black;
+
+}
+
+#utility-bar ul{
+    display: flex;
+    gap: 20px;
+    margin:0;
+    padding: 15px 50px;
+    list-style-type: none;
+}
+
+#utility-bar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#branding{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+#usc-brand{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#usc-brand img{
+    margin-right: 20px;
+}
+
+#usc-name p{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#usc-name h1{
+    margin:0;
+}
+
+#branding h2{
+    font-size: 36px;
+}
+
