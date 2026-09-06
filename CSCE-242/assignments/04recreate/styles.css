@@ -232,7 +232,7 @@ body{
     font-weight: bold;
 }
 
-.open-quote
+.open-quote,
 .close-quote{
     position: absolute;
     color: lightgray;
@@ -243,13 +243,63 @@ body{
 }
 
 .open-quote{
-    top: -35px;
-    left: -45px;
+    top: -45px;
+    left: -65px;
 }
 
 .close-quote{
-    right: 0;
-    bottom: -55px;
+    right: 80px;
+    bottom: -100px;
+}
+
+/*Research Section*/
+#research{
+    position: relative;
+    padding-bottom: 45px;
+}
+
+#research img{
+    display: block;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+#research .research-content{
+    position: absolute;
+    left: 6%;
+    bottom: 0;
+    width: 40%;
+    background-color: maroon;
+    padding: 40px 50px;
+}
+
+#research .research-content h2{
+    margin: 0 0 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#research .research-content p{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+#research .button{
+    display: inline-block;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    margin-top: 20px;
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
