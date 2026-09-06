@@ -590,3 +590,29 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+
+
+/*Bottom Footer*/
+#bottom-footer{
+    display: flex;
+    align-items: center;
+    padding: 18px 35px;
+    background-color: black;
+}
+
+#bottom-footer p{
+    margin: 0;
+    padding-right: 18px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#bottom-footer a{
+    padding: 0 18px;
+    border-left: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
