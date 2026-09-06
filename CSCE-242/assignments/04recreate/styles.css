@@ -145,39 +145,112 @@ body{
 
 /*Education Section*/
 
-.feature-section{
-    display: flex;
+#education{
+    position: relative;
+    padding-bottom: 45px;
 }
 
-.feature-section img{
-    width: 50%;
-    height: 500px;
+#education img{
+    display: block;
+    width: 100%;
+    height: 800px;
     object-fit: cover;
 }
 
-.feature-content{
-    flex: 1;
-    padding: 80px
+#education .feature-content{
+    position: absolute;
+    right: 6%;
+    bottom: 0;
+    width: 40%;
+    background-color: maroon;
+    padding: 40px 50px;
 }
 
-.feature-content h2{
-    color: maroon;
-    font-family: Georgia, serif;
-    font-size: 48px;
+#education .feature-content h2{
+    margin: 0 0 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 
-.feature-content p{
-    font-size: 20px;
+#education .feature-content p{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
     line-height: 1.6;
 }
 
-.button{
-    align-self: flex-start;
-    background-color: maroon;
+#education .button{
+    display: inline-block;
+    background-color: black;
+    border: 3px solid white;
     color: white;
-    padding: 15px 25px;
+    margin-top: 20px;
+    padding: 14px 25px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/*Student Quote*/
+
+#student-quote{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0 12% 70px;
+    background-color: white;
+}
+
+#student-quote img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote-content{
+    flex: 1;
+    position: relative;
+}
+
+.quote-text{
+    margin: 0;
+    color: maroon;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 40px;
+}
+
+.quote-name{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.open-quote
+.close-quote{
+    position: absolute;
+    color: lightgray;
+    font-family: Georgia, serif;
+    font-size: 140px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.open-quote{
+    top: -35px;
+    left: -45px;
+}
+
+.close-quote{
+    right: 0;
+    bottom: -55px;
+}
+
 
