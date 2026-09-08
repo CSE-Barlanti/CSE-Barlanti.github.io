@@ -1,6 +1,6 @@
-function showMessage(){
-    console.log(" I did it! The button was clicked!");
-}
+document.getElementById("btn-show-message").onclick = (e) => {
+    document.getElementById("p-message").innerHTML = "Button was clicked!";
+    console.log(e);
+};
 
-const  btnClick = document.getElementById("btn-show-message"); /* Get the button element */
-btnClick.onclick = showMessage;
+
