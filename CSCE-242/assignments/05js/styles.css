@@ -1,0 +1,110 @@
+/*Structural*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavender;
+    color: midnightblue;
+}
+
+#assignment-seven{
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    background-color: lightyellow;
+    border: 3px solid blue;
+}
+
+h1{
+    margin: 0;
+    color: steelblue;
+}
+
+h2{
+    color: coral;
+}
+
+.dots{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.columns{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.column{
+    flex: 1;
+    padding: 100px;
+    background-color: ivory;
+    border: 2px solid steelblue;
+}
+
+.column h3{
+    color: steelblue;
+}
+
+#speech-column{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#speech-bubble{
+    display: inline-block;
+    margin-top: 35px;
+    padding: 18px 22px;
+    position: relative;
+    background-color: white;
+    border: 3px solid midnightblue;
+    border-radius: 32px;
+    font-size: 28px;
+}
+
+#speech-bubble::after{
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-right: 3px solid midnightblue;
+    border-bottom: 3px solid midnightblue;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#sticker-column{
+    position: relative;
+}
+
+#sun-image{
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.credits{
+    margin-bottom: 0;
+    color: steelblue;
+}
+
+@media (max-width: 800px){
+    .columns{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .column{
+        min-height: 200px;
+    }
+}
