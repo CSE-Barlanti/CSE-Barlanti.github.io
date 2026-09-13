@@ -10,14 +10,14 @@ const showSpeech = () => {
 };
 
 const showBeverageMessage = () => {
-    beverageMessage.innerHTML = '${beverage.value}: Nice Choice!';
+    beverageMessage.innerHTML = beverage.value + ": Nice Choice!";
 };
 
 const addSticker = () => {
     const sticker = document.createElement("div");
 
     sticker.classList.add("sticker");
-    sticker.innerHTML = "☀️";
+    sticker.innerHTML = "&#9728;";
 
     stickerColumn.append(sticker);
 }
