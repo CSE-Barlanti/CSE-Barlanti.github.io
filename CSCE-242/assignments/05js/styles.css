@@ -25,6 +25,8 @@ h2{
     color: coral;
 }
 
+
+/*Body*/
 .dots{
     position: absolute;
     top: 15px;
@@ -32,6 +34,7 @@ h2{
     font-size: 28px;
     font-weight: bold;
 }
+
 
 .columns{
     display: flex;
@@ -47,6 +50,8 @@ h2{
 }
 
 .column h3{
+    margin-top: 0;
+    font-size: 32px;
     color: steelblue;
 }
 
@@ -87,7 +92,7 @@ h2{
 }
 
 #sun-image{
-    width: 100px;
+    width: 185px;
     margin-top: 20px;
     cursor: pointer;
 
@@ -96,6 +101,17 @@ h2{
 .credits{
     margin-bottom: 0;
     color: steelblue;
+}
+
+#speech-bubble.hidden{
+    display: none;
+}
+
+.sticker{
+    position: absolute;
+    top: 105px;
+    left: 65px;
+    font-size: 32px;
 }
 
 @media (max-width: 800px){
