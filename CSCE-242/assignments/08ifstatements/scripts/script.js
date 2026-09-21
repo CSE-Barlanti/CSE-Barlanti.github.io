@@ -51,13 +51,26 @@ daysInput.addEventListener("input", () =>{
     }
 });
 
-const daysLeftResult = document.querySelector(days-left-result);
+const daysLeftResult = document.querySelector("#days-left-results");
+const semesterMessage = document.querySelector("#semester-message");
 const today = new Date();
 const lastDayOfClass = new Date(2026, 11, 4);
 
 const milliSecondsLeft = lastDayOfClass - today;
-const daysLeft = Math.ceil(milliSecondsLeft / 1000 * 60 * 60 * 24);
+const daysLeft = Math.ceil(milliSecondsLeft / (1000 * 60 * 60 * 24));
 
 
 daysLeftResult.textContent = "You have " + daysLeft + " days left in the semester.";
 
+if(daysLeft > 60){
+    semesterMessage.textContent = "There is plenty of time left - stay organized and keep building good habits.";
+}
+else if(daysLeft > 30){
+    semesterMessage.textContent = "There is plenty of time left - stay organized and keep building good habits.";
+}
+else if(daysLeft > 7){
+    semesterMessage.textContent = "There is plenty of time left - stay organized and keep building good habits.";
+}
+else{
+    semesterMessage.textContent = "There is plenty of time left - stay organized and keep building good habits.";
+}
