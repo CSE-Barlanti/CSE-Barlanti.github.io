@@ -492,3 +492,104 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+
+/*Main Footer*/
+footer{
+    padding: 90px 6% 70px;
+    background: var(--black);
+    border: 1px solid var(--garnet);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.footer-brand{
+    width: 28%
+}
+
+.footer-brand h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 2em;
+    line-height: 1;
+}
+
+.footer-line{
+    width: 60px;
+    height: 7px;
+    margin: 20px 0;
+    background: var(--bright-garnet);
+}
+
+.footer-brand p,
+.footer-connect p{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: .8em;
+    line-height: 1;
+}
+
+.footer-column{
+    width: 20%;
+}
+
+.footer-connect{
+    width: 28%;
+}
+
+.footer-column h3,
+.footer-connect h3{
+    display: inline-block;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--garnet);
+    color: var(--offwhite);
+    font-size: 1.0em;
+}
+
+.footer-column ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-column li{
+    margin-bottom: 16px;
+}
+
+.footer-column a{
+    color: var(--offwhite);
+    font-size: .8em;
+    text-decoration: none;
+}
+
+.footer-form{
+    display: flex;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.footer-input{
+    width: 220px;
+    padding: 16px;
+    border: 2px solid var(--gold);
+    border-radius: 5px;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: .8em;
+}
+
+.footer-button{
+    padding: 16px 24px;
+    border: none;
+    border-radius: 5px;
+    background: var(--garnet);
+    color: var(--offwhite);
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: bold;
+    cursor: pointer;
+}
