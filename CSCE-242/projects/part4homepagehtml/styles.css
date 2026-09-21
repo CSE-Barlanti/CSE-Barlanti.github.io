@@ -87,5 +87,19 @@ body{
     border-bottom: 2px strong var(--gold);
 }
 
+.tickets-button{
+    padding: 15px 25px;
+    border-radius: 45px;
+    background: var(--garnet);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tickets-button.hover{
+    color: var(--bright--garnet);
+}
+
 
 
