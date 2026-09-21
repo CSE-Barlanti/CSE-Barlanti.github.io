@@ -49,7 +49,7 @@ daysInput.addEventListener("input", () =>{
     else{
         attendenceResult.textContent = "This is not an online class; you are missing valuable learning opportunities."
     }
-})
+});
 
 const daysLeftResult = document.querySelector(days-left-result);
 const today = new Date();
@@ -60,3 +60,4 @@ const daysLeft = Math.ceil(milliSecondsLeft / 1000 * 60 * 60 * 24);
 
 
 daysLeftResult.textContent = "You have " + daysLeft + " days left in the semester.";
+
