@@ -91,3 +91,9 @@ setInterval(()=>{
 document.getElementById("toggle-nav").onclick = () => {
     document.querySelector("#main-nav ul").classList.toggle("hidden");
 }
+
+document.getElementById("btn-donation").onclick = () => {
+    const userDonation = parseInt(document.getElementById("txt-donation"));
+    const donationP = document.getElementById("donation-message");
+    percent = userDonation / GOAL * 100;
+}

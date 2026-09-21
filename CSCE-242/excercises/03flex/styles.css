@@ -63,6 +63,27 @@ body{
     background-color: aquamarine;
 }
 
+/*Footer-Links*/
+#footer-links{
+    background: maroon;
+
+}
+
+#footer-links a{
+    color: white;
+}
+
+/*Footer-Copy*/
+#footer-copy{
+    background: black;
+    color: white;
+}
+
+#footer-copy a{
+    color: white;
+}
+
+
 /*Navigation*/
 #main-nav ul, #quicklinks{
     list-style-type: none; /*removes bullets from list*/
@@ -113,6 +134,12 @@ body{
     text-align: center;
     padding-top: 10px;
 }
+
+/*columns for all devices*/
+.columns-mobile{
+    display: flex; 
+}
+
 
 /*Responsive Design*/
 /*600px or larger*/
