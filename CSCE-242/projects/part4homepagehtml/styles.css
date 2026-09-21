@@ -375,3 +375,120 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+
+/*Sandstorm Section*/
+.sandstorm-section{
+    display: flex;
+    min-height: 650px;
+    border-top: 1px solid var(--garnet);
+    background: var(--dark-gray);
+}
+
+.sandstorm-content{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 100px 6%;
+    box-sizing: border-box;
+}
+
+
+.sandstorm-label{
+    margin: 0;
+    color: var(--gold);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.sandstorm-label span{
+    color: var(--garnet);
+}
+
+.sandstorm-heading{
+    margin: 35px 0;
+    color: var(--offwhite);
+    font-size: 3.6em;
+    line-height: 1;
+}
+
+.sandstorm-description{
+    max-width: 700px;
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.2;
+
+}
+
+.sandstorm-button{
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: var(--garnet);
+    color: var(--offwhite);
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sandstorm-button span{
+    margin-left: 12px;
+    font-size: 1em;
+}
+
+.sandstorm-image{
+    display: block;
+    width: 45%;
+    height: 650px;
+    object-fit: cover;
+}
+
+/*Newsletter Section*/
+.news-letter-section{
+    padding: 100px 20px 110px;
+    border-top: 1px solid var(--garnet);
+    background: var(--garnet);
+    text-align: center;
+}
+
+.newsletter-heading{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 2.5em;
+}
+
+.newsletter-description{
+    max-width: 800px;
+    margin: 28px auto 50px;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.newsletter-input{
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background: var(--offwhite);
+    color: var(--black);
+    font-size: 1em;
+}
+
+.newsletter-button{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 5px;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
