@@ -78,11 +78,16 @@ btnStop.onclick = () =>
 setInterval(()=>{
     const pDisplay = document.getElementById("date-display");
     const today = new Date();
-    const month = today.getMonth();
-    const day = today.getDay();
+    const month = today.getMonth() + 1;
+    const day = today.getDate();
     const year = today.getFullYear();
     const seconds = today.getSeconds();
     const minutes = today.getMinutes();
     const hours = today.getHours();
-    pDisplay.innerHTML = seconds;
 }, 1000);
+
+
+//document.querySelector("#toggle-nav").onclick is the same line of code as below
+document.getElementById("toggle-nav").onclick = () => {
+    document.querySelector("#main-nav ul").classList.toggle("hidden");
+}
