@@ -6,8 +6,122 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+#content{
+    max-width: 1100px;
+    min-height: 100;
+    background-color: honeydew;
+    margin: auto;
+    text-align: center;
+}
 
 /*Body*/
+/*Header*/
+
+header{
+    padding: 25px 20px 10px;
+}
+
+header h1{
+    margin: 0;
+    color: cadetblue;
+    font-size: 3em;
+}
+
+header h2{
+    margin: 15px 0 25px;
+    color: lightcoral;
+    font-size: 2em;
+}
+
+/*Main-Nav*/
+#main-nav ul{
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.column-hide-small{
+    display: flex;
+    justify-content: center;
+}
+
+#main-nav li:not(:last-child)::after{
+    content: "|";
+    margin: 10px 0;
+    font-size: 1em;
+    color: cadetblue;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1em
+}
+
+#main-nav a:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+
+#toggle-nav{
+    display: none;
+}
+
+/*Main-Content*/
+main{
+    padding: 10px 40px 50px;
+}
+
+.exercise{
+    margin: 0;
+    background-color: white;
+    padding: 40px 25px;
+    border: solid 2px lightgray;
+}
+
+.exercise h3{
+    margin-top: 0;
+    color: cadetblue;
+    font-size: 2em;
+}
+
+.exercise label{
+    display: block;
+    margin: 10px 0 25px;
+    font-size: 1em;
+}
+
+.exercise input{
+    width: 250px;
+    padding: 10px;
+    border: solid 2px lightgray;
+    font-size: 1em;
+}
+
+
+/*Exercise-One-And-Two*/
+#deduction-result,
+#attendance-result,
+#days-left-result,
+#semester-message{
+    color: cadetblue;
+    font-size: 1em;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/*Footer*/
+
+footer{
+    padding: 10px 20px 25px;
+    color: cadetblue;
+}
+
+
+
+
 
 
