@@ -84,16 +84,24 @@ setInterval(()=>{
     const seconds = today.getSeconds();
     const minutes = today.getMinutes();
     const hours = today.getHours();
+    pDisplay.innerHTML = `${hours}:${minutes}:${seconds} ${month}/${day}/${year}`;
 }, 1000);
 
-
-//document.querySelector("#toggle-nav").onclick is the same line of code as below
-document.getElementById("toggle-nav").onclick = () => {
-    document.querySelector("#main-nav ul").classList.toggle("hidden");
+//toggle the navigation
+document.querySelector("#toggle-nav").onclick = () => {
+    document.querySelector("#main-nav ul").classList.toggle("hide-small");
 }
 
+//record the users donation and fill up the thermometer appropriately
+const GOAL = 10000;
+document.getElementById("goal").innerHTML = GOAL;
+
 document.getElementById("btn-donation").onclick = () => {
-    const userDonation = parseInt(document.getElementById("txt-donation"));
+    const userDonation = parseInt(document.getElementById("txt-donation").value);
     const donationP = document.getElementById("donation-message");
     percent = userDonation / GOAL * 100;
+    
+    donationP.innerHTML = `You are ${percent.toFixed(1)}% to your goal`;
+    document.querySelector(":root").style.setProperty("--donation", percent + "%");
+
 }
