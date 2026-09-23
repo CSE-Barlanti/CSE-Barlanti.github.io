@@ -18,21 +18,33 @@ document.getElementById("btn-loop").onclick = (e) => {
 };
 
 //looping through a range
-document.getElementById("btn-loop-range") = () => {
-    const startText = document.getElementById("txt-start");
-    const endText = document.getElementsByName("txt-end");
+document.getElementById("btn-loop-range").onclick = () => {
+    const startText = document.getElementById("txt-start").value;
+    const endText = document.getElementById("txt-end").value;
     const errorStart = document.getElementById("error-start");
     errorStart.classList.add("hidden");
     const errorEnd = document.getElementById("error-end");
     errorEnd.classList.add("hidden");
-
+    const ul = document.getElementById("range-list");
 
     if(isNaN(startText) || startText < 0 || startText > 5){
-        errorStart.innerHTML = "*Invalid*";
+        errorStart.innerHTML = "* Invalid";
         errorStart.classList.remove("hidden");
+        return;
     }
-    if(isNaN(endTextText) || endText < 0 || endText > 5 || endText < startText){
-        errorEnd.innerHTML = "*Invalid*";
+
+    if(isNaN(endText) || endText < 10 || endText > 20 || endText < startText){
+        errorEnd.innerHTML = "* Invalid";
         errorEnd.classList.remove("hidden");
+        return;
+    }
+
+
+    ul.innerHTML = "";
+
+    for(let i = parseInt(startText); i< parseInt(endText); i++){
+        const li = document.createElement("li");
+        li.innerHTML = i;
+        ul.appendChild(li);
     }
 };
