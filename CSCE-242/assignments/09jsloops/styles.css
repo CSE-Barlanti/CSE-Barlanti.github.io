@@ -65,3 +65,38 @@ header h2{
     height: 100%;
 }
 
+/*Car Art*/
+.car{
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    z-index: 2; /*This makes the cars appear above the yellow dashed lane line. Without it, the lane line could show over the cars.*/
+}
+
+.car-top{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px 10px 0 0;
+    background: skyblue;
+}
+
+.wheel{
+    position: absolute;
+    bottom: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+}   
+
+
+.front-wheel{
+    left: 10px;
+}
+
+.back-wheel{
+    right: 10px;
+}
