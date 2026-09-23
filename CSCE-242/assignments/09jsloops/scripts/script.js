@@ -1,10 +1,10 @@
-const createCar = (color, lane, left-position) => {
-    const car = document.getElementById("div");
+const createCar = (color, lane, leftPosition) => {
+    const car = document.createElement("div");
 
-    car.classList.add(car);
+    car.classList.add("car");
     car.style.background = color;
     car.style.top = lane + "px";
-    car.style.left = left-position + "%";
+    car.style.left = leftPosition + "%";
 
     const carTop = document.createElement("div");
     carTop.classList.add("car-top");
@@ -22,6 +22,18 @@ const createCar = (color, lane, left-position) => {
     car.append(backWheel);
 
     document.getElementById("cars").append(car);
-}
+};
 
-createCar("turquoise", 25, 20);
+for(i = 0; i < 7; i++){
+    let randomLane;
+
+    if(Math.random() < .5){
+        randomLane = 25;
+    }else{
+        randomLane = 140;
+    }
+
+    const randomLeft = Math.random() * 85;
+
+    createCar("turquoise", randomLane, randomLeft);
+};
