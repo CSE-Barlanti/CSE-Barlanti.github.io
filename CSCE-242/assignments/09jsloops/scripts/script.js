@@ -24,6 +24,8 @@ const createCar = (color, lane, leftPosition) => {
     document.getElementById("cars").append(car);
 };
 
+const carColors = ["turquoise", "coral", "mediumpurple", "yellowgreen", "lightskyblue", "plum"];
+
 for(i = 0; i < 7; i++){
     let randomLane;
 
@@ -34,6 +36,7 @@ for(i = 0; i < 7; i++){
     }
 
     const randomLeft = Math.random() * 85;
+    const randomColor = carColors[Math.floor(Math.random() * carColors.length)];
 
-    createCar("turquoise", randomLane, randomLeft);
+    createCar(randomColor, randomLane, randomLeft);
 };
