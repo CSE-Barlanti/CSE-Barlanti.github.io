@@ -563,6 +563,59 @@ body{
     object-position: center;
 }
 
+/*Team-History Milestones*/
+.milestones-section{
+    padding: 100px 6%;
+    background: var(--garnet);
+    text-align: center;
+}
+
+.milestones-section h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 3em;
+}
+
+.milestone-description{
+    margin: 20px 0 60px;
+    color: var(--offwhite);
+    font-size: 1em;
+}
+
+.milestone-cards{
+    display: flex;
+    gap: 28px;
+}
+
+.milestone-card{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 220px;
+    overflow: hidden;
+    border-radius: 6px;
+    background: var(--offwhite);
+}
+
+.milestone-number{
+    display: grid;
+    flex: 1;
+    margin: 0;
+    place-items: center;
+    color: var(--gold);
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.milestone-label{
+    margin: 0;
+    padding: 18px 12px;
+    background: var(--bright-garnet);
+    color: var(--offwhite);
+    font-size: .75em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /*Main Footer*/
 footer{
