@@ -694,7 +694,38 @@ body{
     line-height: 1.5;
 }
 
+/*History CTA Section*/
+.history-cta-section{
+    padding: 90px 6%;
+    background: var(--garnet);
+    text-align: center;
+}
 
+.history-cta-section h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.history-cta-section p{
+    max-width: 850px;
+    margin: 25px auto 35px;
+    color: var(--offwhite);
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.history-cta-button{
+    display: inline-block;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: var(--black);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /*Main Footer*/
 footer{
