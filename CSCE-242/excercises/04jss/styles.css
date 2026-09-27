@@ -35,9 +35,6 @@ body {
     position:relative; 
 }
 
-#hero img {
-    display:block;
-}
 
 .hero-arrow {
     position:absolute;
@@ -148,6 +145,10 @@ body {
 /* images */
 img {
     max-width:100%;
+}
+
+#hero image{
+
 }
 
 /* Typography */
