@@ -779,7 +779,7 @@ body{
 .team-glance-section{
     display: flex;
     min-height: 580px;
-    background: var(--black);
+    background: var(--garnet);
 }
 
 .team-glance-image{
@@ -920,7 +920,7 @@ body{
 
 .roster-cta-content{
     box-sizing: border-box;
-    width: 45%;
+    width: 55%;
     padding: 80px 8%;
     color: var(--offwhite);
     text-align: center;
@@ -960,7 +960,7 @@ body{
 
 .roster-cta-image{
     box-sizing: border-box;
-    width: 55%;
+    width: 45%;
     height: 620px;
     display: block;
     object-fit: cover;
