@@ -1009,6 +1009,53 @@ body{
 
 }
 
+/*Featured Games Section*/
+.featured-game-card{
+    overflow: hidden;
+    border: 2px solid var(--gold);
+    border-radius: 8px;
+    background: var(--offwhite);
+    text-align: center;
+}
+
+.featured-game-detail{
+    display: flex;
+    min-height: 260px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 15px;
+
+}
+
+.featured-game-date{
+    margin: 0 0 12px;
+    color: var(--gold);
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.featured-game-detail h2{
+    margin: 0 0 12px;
+    color: var(--black);
+    font-size: 1.5em;
+
+}
+
+.featured-game-location{
+    margin: 0 0 18px;
+    color: var(--black);
+    font-size: 1em;
+
+}
+
+.featured-game-detail a{
+    color: var(--garnet);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 /*Main Footer*/
 footer{
