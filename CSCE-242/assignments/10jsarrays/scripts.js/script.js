@@ -20,6 +20,30 @@ document.getElementById("select-destination").onchange = (e) => {
         destinationMap = mountains;
     }else if (destinationType === "Beaches"){
         destinationMap = beaches;
+    }else{
+        return;
+    }
+
+    const destinationLinks = document.getElementById("destination-links");
+    destinationLinks.innerHTML= "";
+
+    for(let destination in destinationMap){
+        const link = document.createElement("a");
+        link.innerHTML = destination;
+
+        link.href="#";
+        link.classList.add("destination-link");
+        destinationLinks.append(link);
+
+        link.onclick = (e) => {
+            e.preventDefault();
+
+            const mapDisplay = document.getElementById("destination-image");
+            mapDisplay.classList.remove("hidden");
+            mapDisplay.innerHTML = `<iframe src="${destinationMap[destination]}"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
+
+        }
+
     }
 };
 
