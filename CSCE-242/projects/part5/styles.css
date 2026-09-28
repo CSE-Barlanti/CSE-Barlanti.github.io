@@ -967,6 +967,48 @@ body{
     object-position: center;
 }
 
+/*Schedule & Results Section*/
+/*Hero Schedule*/
+.schedule-hero{
+    display: flex;
+    height: 220px;
+    background: var(var(--garnet));
+}
+
+.schedule-hero-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 45px 0 45px 3%;
+    padding: 0 2%;
+    border-left: 8px solid var(--gold);
+    color: var(--offwhite);
+}
+
+.schedule-hero-content h2{
+    margin: 0 0 12px;
+    color: var(--offwhite);
+    font-size: 2em;
+}
+
+.schedule-hero-content p{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.schedule-hero-image{
+    width: 14%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+
+}
+
 
 /*Main Footer*/
 footer{
