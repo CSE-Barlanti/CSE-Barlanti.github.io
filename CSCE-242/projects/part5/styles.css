@@ -1091,13 +1091,30 @@ body{
     text-transform: uppercase;
 }
 
-/*Recent Games*/
+/* Past Games Section */
 .past-games-section{
     padding: 55px 4% 100px;
     background: var(--black);
 }
 
-.past-games{
+.past-games-heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.past-games-heading h2{
+    margin: 0 0 15px;
+    color: var(--offwhite);
+    font-size: 2.5em;
+}
+
+.past-games-heading p{
+    margin: 0;
+    color: var(--gray);
+    font-size: 1.1em;
+}
+
+.past-game-results{
     display: flex;
     gap: 32px;
 }
@@ -1116,40 +1133,45 @@ body{
 }
 
 .past-game-details{
-    display: flex;
-    min-height: 260px;
-    flex-direction: column;
-    justify-content: center;
-    padding: 35px 25px;
+    box-sizing: border-box;
+    height: 330px;
+    padding: 40px 30px;
 }
 
 .past-game-date{
-    margin: 0 0 12px;
+    margin: 0 0 25px;
     color: var(--garnet);
-    font-size: 1em;
+    font-size: .9em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .past-game-details h2{
-    margin: 0 0 12px;
+    margin: 0 0 20px;
     color: var(--black);
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .past-game-location{
-    margin: 0 0 18px;
+    margin: 0 0 30px;
     color: var(--black);
     font-size: 1em;
 }
 
 .past-game-details a{
+    display: inline-block;
+    padding: 12px 18px;
+    border: 2px solid var(--garnet);
+    border-radius: 4px;
     color: var(--garnet);
-    font-size: 1em;
+    font-size: .9em;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.past-game-status{
+.past-game-status,
+.past-game-section{
     margin: 0;
     padding: 25px;
     background: var(--garnet);
@@ -1159,18 +1181,73 @@ body{
     text-transform: uppercase;
 }
 
-.past-game-button{
-    align-self: center;
-    margin-top: 55px;
-    padding: 18px 30px;
-    border-radius: 5px;
+/*Schedule CTA section*/
+.game-day-cta-section{
+    display: flex;
+    min-height: 620px;
+    padding: 100px 6%;
+    background: var(--black);
+
+}
+
+.game-day-cta-content{
+    box-sizing: border-box;
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 8%;
+}
+
+.game-day-cta-content h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3dm;
+}   
+
+.game-day-cta-label{
+    margin: 0 0 45px;
+    color: var(--gold);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.game-day-cta-description{
+    max-width: 650px;
+    margin: 35px 0 40px;
+    color: var(--offwhite);
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.game-day-cta-button{
+    align-self: flex-start;
+    padding: 20px 30px;
+    border-radius: 5%;
     background: var(--garnet);
     color: var(--offwhite);
     font-size: 1em;
     font-weight: bold;
-    text-decoration: none;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+.game-day-cta-button:hover{
+    background: var(--gold);
+    color: var(--offwhite);
+}
+
+.game-day-cta-image{
+    box-sizing: border-box;
+    width: 50%;
+    height: 700px;
+    display: block;
+    border-radius: 70px;
+    object-fit: cover;
+    object-position: center;
+}
+
 
 
 /*Main Footer*/
