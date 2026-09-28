@@ -911,6 +911,66 @@ body{
     line-height: 1.6;
 }
 
+/*Ready For Saturday*/
+.roster-cta-section{
+    display: flex;
+    min-height: 620px;
+    background: var(--black);
+}
+
+.roster-cta-content{
+    display: flex;
+    width: 55px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 8%;
+    color: var(--offwhite);
+    text-align: center;
+}
+
+.roster-cta-content h2{
+    margin: 0;
+    color: var(--offwhite);
+    font-size: 3em;
+}
+
+.roster-cta-label{
+    margin: 0 0 55px;
+    color: var(--gold);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+.roster-cta-description{
+    max-width: 550px;
+    margin: 35px auto 55px;
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.roster-cta-link{
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.roster-cta-link:hover{
+    color: var(--gold);
+}
+
+.roster-cta-image{
+    width: 45%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 /*Main Footer*/
 footer{
     padding: 90px 6% 70px;
