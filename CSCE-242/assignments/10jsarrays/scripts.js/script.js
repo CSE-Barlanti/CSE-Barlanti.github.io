@@ -33,7 +33,6 @@ document.getElementById("select-destination").onchange = (e) => {
 
         link.href="#";
         link.classList.add("destination-link");
-        destinationLinks.append(link);
 
         link.onclick = (e) => {
             e.preventDefault();
@@ -43,6 +42,8 @@ document.getElementById("select-destination").onchange = (e) => {
             mapDisplay.innerHTML = `<iframe src="${destinationMap[destination]}"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
 
         }
+
+        destinationLinks.append(link);
 
     }
 };
