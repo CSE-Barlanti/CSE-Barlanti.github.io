@@ -1091,6 +1091,87 @@ body{
     text-transform: uppercase;
 }
 
+/*Recent Games*/
+.past-games-section{
+    padding: 55px 4% 100px;
+    background: var(--black);
+}
+
+.past-games{
+    display: flex;
+    gap: 32px;
+}
+
+.past-game{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.past-game-card{
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--offwhite);
+    text-align: center;
+}
+
+.past-game-details{
+    display: flex;
+    min-height: 260px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 25px;
+}
+
+.past-game-date{
+    margin: 0 0 12px;
+    color: var(--garnet);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.past-game-details h2{
+    margin: 0 0 12px;
+    color: var(--black);
+    font-size: 1.5em;
+}
+
+.past-game-location{
+    margin: 0 0 18px;
+    color: var(--black);
+    font-size: 1em;
+}
+
+.past-game-details a{
+    color: var(--garnet);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.past-game-status{
+    margin: 0;
+    padding: 25px;
+    background: var(--garnet);
+    color: var(--offwhite);
+    font-size: .9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.past-game-button{
+    align-self: center;
+    margin-top: 55px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: var(--garnet);
+    color: var(--offwhite);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 
 /*Main Footer*/
 footer{
