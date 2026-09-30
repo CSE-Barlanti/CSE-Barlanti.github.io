@@ -24,7 +24,7 @@ class Vacation{
         const image = document.createElement("img");
         image.src = this.image;
         image.alt = this.title;
-        card.append(type);
+        card.append(image);
 
         card.onclick = () =>{
             showModal(this);
