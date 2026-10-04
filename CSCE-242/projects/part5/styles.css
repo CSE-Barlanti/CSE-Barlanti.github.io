@@ -436,7 +436,7 @@ body{
 
 .sandstorm-button{
     align-self: flex-start;
-    margin-top: auto;
+    margin-top: 60px;
     padding: 20px 30px;
     border-radius: 5px;
     background: var(--garnet);
@@ -744,16 +744,20 @@ body{
 /*Current Team Section*/
 /*Current Team Hero Section*/
 .current-team-hero{
-    color: var(--black);
+    padding: 40px 6%;
+    background: var(--black);
+    border-bottom: 1px solid var(--garnet);
 }
 
 .current-team-banner{
     display: flex;
+    min-height: 170px;
+    max-width: 1200px;
     align-items: center;
     gap: 25px;
-    min-height: 130px;
-    padding: 0 6%;
-    background: var(--garnet);
+    margin: auto;
+    padding: 0 50px;
+    background: var(--black);
 
 }
 
@@ -764,7 +768,7 @@ body{
     place-items: center;
     border: 3px solid var(--gold);
     border-radius: 50%;
-    background: var(--black);
+    background: var(--garnet);
     color: var(--offwhite);
     font-size: 2em;
     font-weight: bold;
@@ -772,8 +776,8 @@ body{
 
 .current-team-intro{
     flex: 1;
-    padding-left: 20px;
-    border-left: 6px solid var(--gold);
+    padding-left: 25px;
+    border-left: 3px solid var(--gold);
 }
 
 .current-team-intro h1{
@@ -1033,6 +1037,13 @@ body{
 .featured-games{
     display: flex;
     gap: 32px;
+}
+
+.upcoming-games-heading{
+    margin: 0 0 35px;
+    color: var(--offwhite);
+    font-size: 3em;
+    text-align: center;
 }
 
 .featured-game{
