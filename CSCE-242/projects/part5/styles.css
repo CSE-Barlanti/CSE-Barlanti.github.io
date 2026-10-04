@@ -37,14 +37,17 @@ body{
 }
 
 .brand-mark{
-    display: grid;
-    width: 38px;
-    height: 38px;
-    place-items: center;
-    border: 2px solid var(--garnet);
-    border-radius: 50%;
-    color: var(--garnet);
-    font-size: 1.5em;
+    display: flex;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-mark img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .brand-copy{
@@ -53,14 +56,19 @@ body{
 }
 
 .brand-copy strong{
-    font-size: 1.45em;
+    color: var(--offwhite);
+    font-size: 1.35em;
+    letter-spacing: .04em;
+    text-transform: uppercase;
 }
 
 .brand-copy small{
-    margin-top: 2px;
+    margin-top: 4px;
     color: var(--gold);
-    font-size: .75em;
+    font-size: .7em;
     font-weight: bold;
+    letter-spacing: .12em;
+    text-transform: uppercase;
 }
 
 .primary-nav ul{
@@ -132,6 +140,7 @@ body{
     width: 55%;
     height: 100%;
     padding: 170px 6% 0;
+    background: linear-gradient(90deg, rgba(11, 11, 11, .92), rgba(11, 11, 11, .55), transparent);
 }
 
 .eyebrow{
@@ -381,17 +390,20 @@ body{
 /*Sandstorm Section*/
 .sandstorm-section{
     display: flex;
-    min-height: 650px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+    padding: 70px 10%;
     border-top: 1px solid var(--garnet);
     background: var(--dark-gray);
 }
 
 .sandstorm-content{
     display: flex;
+    width: 40%;
     flex-direction: column;
-    width: 55%;
-    padding: 100px 6%;
-    box-sizing: border-box;
 }
 
 
@@ -409,7 +421,7 @@ body{
 .sandstorm-heading{
     margin: 35px 0;
     color: var(--offwhite);
-    font-size: 3.6em;
+    font-size: 3em;
     line-height: 1;
 }
 
@@ -440,10 +452,13 @@ body{
 }
 
 .sandstorm-image{
+    width: 50%;
+    max-width: 720px;
+    height: 480px;
     display: block;
-    width: 45%;
-    height: 650px;
+    border-radius: 8px;
     object-fit: cover;
+    object-position: center;
 }
 
 /*Newsletter Section*/
