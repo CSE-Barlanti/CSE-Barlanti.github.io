@@ -71,6 +71,7 @@ main a{
 
 .card-container{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center; 
     gap: 30px;
 }
