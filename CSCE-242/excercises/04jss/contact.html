@@ -24,10 +24,26 @@
             </header>
             <main>
                 <h2 id="page-title">Contact Us</h2>
-                <div class="projects">
+                <form id="contact-form" action="" method="POST">
                     
-                </div>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" value="John Doe"required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" value="john.doe@example.com" required>
+                    </p>
+                    <p>
+                        <textarea name="message" value="Hello, I would like to inquire about your services." required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
             </main>
         </div>
+
+        <srript src="scripts/contact.js"></srript>
     </body>
 </html>
