@@ -13,14 +13,14 @@
 
     {
         "_id": 2,
-        "name": "Lanoris Sellers" ,
+        "name": "Lenorris Sellers" ,
         "number": "16",
         "position": "Quarterback",
         "height": "6'3\"",
         "weight": "210",
         "year": "Senior",
         "hometown": "Florence, SC",
-        "image": "images/current-teamimage/LanorrisSellers.webp"
+        "image": "images/current-teamimage/LenorrisSellers.webp"
     },
 
     {
@@ -44,7 +44,7 @@
         "weight": "215",
         "year": "Junior",
         "hometown": "Washington, D.C.",
-        "image": "images/current-teamimage/isaiah-augustave.jpg"
+        "image": "images/current-teamimage/IsaiahAugustave.webp"
     },
 
     {
@@ -56,7 +56,7 @@
         "weight": "200",
         "year": "Junior",
         "hometown": "Greenville, SC",
-        "image": "images/current-teamimage/MazeoBennettJr.webp"
+        "image": "images/current-teamimage/MazeoBennett.webp"
     },
 
     {
@@ -80,7 +80,7 @@
         "weight": "208 lbs",
         "year": "Redshirt Senior",
         "hometown": "Eatonton, GA",
-        "image": "images/current-teamimage/gerald-kilgore.jpg"
+        "image": "images/current-teamimage/GeraldKilgore.webp"
     },
     {
         "_id": 8,
@@ -91,7 +91,7 @@
         "weight": "305 lbs",
         "year": "Junior",
         "hometown": "Dillon, SC",
-        "image": "images/current-teamimage/josiah-thompson.jpg"
+        "image": "images/current-teamimage/JosiahThompson.webp"
     }
 ]
 
