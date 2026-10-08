@@ -1,0 +1,98 @@
+[
+    {
+        "_id": 1,
+        "name": "Dylan Stewart",
+        "number": 6,
+        "position": "Defensive End",
+        "height": "6'5\"",
+        "weight": 250,
+        "year": "Junior",
+        "hometown": "Washington, D.C.",
+        "image": "images/current-teamimage/DylanStewart.webp"
+    },
+
+    {
+        "_id": 2,
+        "name": "Lanoris Sellers" ,
+        "number": "16",
+        "position": "Quarterback",
+        "height": "6'3\"",
+        "weight": "210",
+        "year": "Senior",
+        "hometown": "Florence, SC",
+        "image": "images/current-teamimage/LanorrisSellers.webp"
+    },
+
+    {
+        "_id": 3,
+        "name": "Nyck Harbor",
+        "number": 8,
+        "position": "Wide Receiver",
+        "height": "6'5\"",
+        "weight": "239",
+        "year": "Senior",
+        "hometown": "Washington, D.C.",
+        "image":"images/current-teamimage/NyckHarbor.webp"
+    },
+
+    {
+        "_id": 4,
+        "name": "Isaiah Augustave",
+        "number": 4,
+        "position": "Running Back",
+        "height": "6'0\"",
+        "weight": "215",
+        "year": "Junior",
+        "hometown": "Washington, D.C.",
+        "image": "images/current-teamimage/isaiah-augustave.jpg"
+    },
+
+    {
+        "_id": 5,
+        "name": "Mazeo Bennett Jr.",
+        "number": 3,
+        "position": "Wide Receiver",
+        "height": "5'10\"",
+        "weight": "200",
+        "year": "Junior",
+        "hometown": "Greenville, SC",
+        "image": "images/current-teamimage/MazeoBennettJr.webp"
+    },
+
+    {
+        "_id": 6,
+        "name": "Judge Collier",
+        "number": 8,
+        "position": "Defensive Back",
+        "height": "6'0\"",
+        "weight": "208",
+        "year": "Junior",
+        "hometown": "Rock Hill, SC",
+        "image": "images/current-teamimage/JudgeCollier.webp"
+    },
+
+    {
+        "_id": 7,
+        "name": "Gerald Kilgore",
+        "number": 1,
+        "position": "Safety",
+        "height": "6'0\"",
+        "weight": "208 lbs",
+        "year": "Redshirt Senior",
+        "hometown": "Eatonton, GA",
+        "image": "images/current-teamimage/gerald-kilgore.jpg"
+    },
+    {
+        "_id": 8,
+        "name": "Josiah Thompson",
+        "number": 74,
+        "position": "Offensive Tackle",
+        "height": "6'7\"",
+        "weight": "305 lbs",
+        "year": "Junior",
+        "hometown": "Dillon, SC",
+        "image": "images/current-teamimage/josiah-thompson.jpg"
+    }
+]
+
+
