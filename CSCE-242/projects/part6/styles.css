@@ -1012,6 +1012,8 @@ body{
 .schedule-hero{
     display: flex;
     height: 220px;
+    box-sizing: border-box;
+    padding: 0 5%;
     background: var(--garnet);
 }
 
@@ -1021,7 +1023,7 @@ body{
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-    margin: 45px 0 45px 3%;
+    margin: 45px 0;
     padding: 0 2%;
     border-left: 8px solid var(--gold);
     color: var(--garnet);
@@ -1040,15 +1042,6 @@ body{
     font-weight: bold;
 }
 
-.schedule-hero-image{
-    width: 15%;
-    height: 225px;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    border-top: 8px solid var(--black);
-
-}
 
 /*Featured Games Section*/
 .featured-games-section{
@@ -1839,33 +1832,17 @@ footer{
 
     /* Schedule and Results */
     .schedule-hero{
-        display: flex;
-        height: 220px;
-        box-sizing: border-box;
-        padding: 0 5%;
-        background: var(--garnet);
+        height: auto;
+        min-height: 200px;
     }
 
     .schedule-hero-content{
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: center;
-        box-sizing: border-box;
-        margin: 40px 0;
-        padding: 0 2%;
-        border-left: 8px solid var(--gold);
+        margin: 35px 8%;
         padding-left: 18px;
     }
 
     .schedule-hero-image{
-        width: 15%;
-        height: 225px;
-        display: block;
-        margin-right: 5%;
-        object-fit: cover;
-        object-position: center;
-        border-top: 8px solid var(--black);
+        display: none;
     }
 
     .featured-games-section,
