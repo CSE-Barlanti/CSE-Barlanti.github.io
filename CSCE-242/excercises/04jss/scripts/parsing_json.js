@@ -4,7 +4,7 @@
 const base_url = "https://portiaportia.github.io/json/fish.json";
 
 const getFish = async() => {
-    const url = `${base_url}`;
+    const url = `${base_url}fish.json`;
     const response = await fetch(base_url);
     return response.json();
 };
@@ -35,12 +35,12 @@ const displayFish = (fish) => {
     section.append(p);
 
     const ol = document.createElement("ol");
+    
 
     return section;
 };
 
     
-};
 
 
 
